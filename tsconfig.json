@@ -1,0 +1,15 @@
+{
+	"extends": "@sapphire/ts-config",
+	"compilerOptions": {
+		"module": "NodeNext",
+		"target": "ESNext",
+		"lib": ["ESNext"],
+		"rootDir": "src",
+		"noImplicitReturns": false,
+		"tsBuildInfoFile": "dist/.tsbuildinfo",
+		"experimentalDecorators": true,
+		"skipLibCheck": true
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}
